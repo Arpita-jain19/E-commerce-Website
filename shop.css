@@ -1,0 +1,220 @@
+
+body{
+    font-family: 'Roboto','sans-serif';
+    background-color: rgb(231,229,229);
+    margin: 0%;
+padding: 0%;  
+}
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgb(115,115,115);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+nav ul a{
+    text-decoration: none;
+    margin-inline: 25px;
+   color: black;
+   font-size: 18px;
+}
+nav ul a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+nav button{
+    width: 80px;
+    height: 29px;
+    background-color: rgb(231, 5, 5);
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+nav button:hover{
+    border: 2px solid red;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+nav ul{
+    margin-right: 25px;
+}
+nav .logo{
+    margin-left: 23px;
+}
+.main{
+    display: flex;
+    justify-content:space-around ;
+    margin-top: 115px;
+    
+}
+.mainText{
+    margin-top: 33px;
+    margin-left: 50px;
+
+
+}
+.mainText h1{
+    font-size: 58px;
+}
+.mainText h2{
+    font-size: 44px;
+    color: rgb(5,202,202);
+}
+.main img{
+    margin-right:-55px;
+}
+.main button{
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    border: none;
+
+}
+.main button:hover{
+    background-color: transparent;
+    border: 3px solid red;
+    color:  black;
+    cursor: pointer;
+}
+.head{
+    text-align: center;
+    margin-top: 45px;
+    padding: 55px;
+}
+.head span{
+    color: rgb(5,202,202);
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card .trends{
+    width: 300px;
+    background-color: white;
+    margin-inline: 20px;
+
+
+}
+.trends img{
+    width: 100%;
+    height: 67%;
+}
+.trends card-Text{
+    padding: 10px;
+}
+.trends i{
+    color: yellow;
+    font-size: 22px;
+}
+.trends button{
+    width: 90px;
+    height: 38px;
+    background: red;
+    font-size: 12px;
+    border-radius: 22px;
+    border: none;
+    margin-left: 33px;
+   color: white;
+   padding: 10px;
+}
+.card .trends:hover{
+    background-color:gray;
+    color: white;
+    width: 290px;
+    transition: 0.6s ease;
+}
+.blogs{
+    display: flex;
+    justify-content: center;
+
+}
+.blogCard{
+    display: flex;
+    margin-inline: 22px;
+  background-color: white;
+    width: 500px;
+    padding: 12px;
+    border-radius: 11px;
+
+}
+.blogCard .blog-text{
+    text-align: center;
+    padding: 20px;
+
+}
+.blog-text a{
+    width: 90px;
+    padding: 7px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.blogCard img{
+    width: 44%;
+
+}
+.customer
+{
+    display: flex;
+    justify-content: center;
+}
+.customer .review{
+    width: 280px;
+   padding: 24px;
+   margin-inline: 23px;
+    background-color: white;
+}
+ .review img{
+    width: 40%;
+    border-radius: 50%;
+
+}
+.review i{
+    color: yellow;
+    font-size: 22px;
+}
+.contact-page{
+    border: 4px solid rgb(2,129,129);
+    padding: 44px;
+    width: 500px;
+    margin-left: 30%;
+}
+.contact-page button{
+    width: 140px;
+    height: 37px;
+    background-color: rgb(7,134,134);
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+   
+}
+.contact-page button:hover{
+    color: black;
+    border: 3px solid aqua;
+    background-color: transparent;
+
+}
+.footer{
+    justify-content: space-around;
+    background-color: white;
+    padding: 55px;
+    margin: 55px;
+    display: flex;
+}
+.contact-page input{
+    width: 400px;
+    padding: 6px;
+    font-size: 18px;
+    outline: none;
+    margin-top: 11px;
+}
